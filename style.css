@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("images/Wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-sizing: border-box;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: inline;
+    font-size: 80px;
+}
+
+img {
+    width: 40px;
+}
+
+.container {
+    background-color: white;
+    border-radius: 20px;
+    height: 200px;
+    width: 500px;
+
+    box-shadow: 0 1px 8px black;
+}
+
+.timer {
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+.toolbar {
+    margin-top: 30px;
+
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.start {
+    padding: 0.5rem;
+    background-color: rgb(19, 192, 19);
+    border-radius: 10px;
+    margin-right: 0.5rem;
+
+    cursor: pointer;
+}
+
+.pause {
+    padding: 0.5rem;
+    background-color: yellow;
+    border-radius: 10px;
+    margin-right: 0.5rem;
+
+    cursor: pointer;
+}
+
+.reload {
+    padding: 0.5rem;
+    background-color: red;
+    border-radius: 10px;
+    margin-left: 0.5rem;
+
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+    opacity: 0;
+}
